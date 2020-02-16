@@ -31,12 +31,14 @@ public class RepositoryTest {
         repository1 = new Repository(
                 "GitHub TDD",
                 "GitHub test driven development homework",
-                false
+                false,
+                commitsList2
         );
         repository2 = new Repository(
                 "GitHub TDD redo",
                 "GitHub test driven development homework (starting over)",
-                true
+                true,
+                commitsList1
         );
     }
 
@@ -61,13 +63,19 @@ public class RepositoryTest {
 
     @Test
     public void commitListStartsAtZero() {
-        assertEquals(0, commitsList1.getCommitListSize());
+        assertEquals(0, repository1.getCommitListSize());
     }
+
+    //    @Test
+//    public void canAddToCommitsList() {
+//        commitsList1.add(commit1);
+//        assertEquals(commit1, repository1.getCommitsList());
+//    }
 
 //    @Test
 //    public void canAddToCommitsList() {
 //        commitsList1.add(commit1);
-//        assertEquals(commit1, repository1.getCommitsList());
+//        assertEquals(commit1, repository1.getCommitListSize());
 //    }
 
 }

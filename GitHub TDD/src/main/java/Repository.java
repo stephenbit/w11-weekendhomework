@@ -7,11 +7,11 @@ public class Repository {
     private Boolean isPublic;
     private ArrayList<Commit> commitsList;
 
-    public Repository(String name, String description, Boolean isPublic) {
+    public Repository(String name, String description, Boolean isPublic, ArrayList commitsList) {
         this.name = name;
         this.description = description;
         this.isPublic = isPublic;
-        this.commitsList = new ArrayList<Commit>();
+        this.commitsList = commitsList;
     }
 
     public String getName() {
@@ -27,7 +27,7 @@ public class Repository {
     }
 
     public Integer getCommitListSize() {
-        return this.commitsList.size();
+        return commitsList.size();
     }
 
 //    public ArrayList<Commit> getCommitsList() {
