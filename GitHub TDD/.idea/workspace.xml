@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e518911c-5dcb-4891-8dae-06e88a4e21a2" name="Default Changelist" comment="" />
+    <list default="true" id="e518911c-5dcb-4891-8dae-06e88a4e21a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/weekend_homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CommitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CommitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommitTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xne4v45J40Sv4B2njMBfVVxAMl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,12 +42,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CommitTest">
+    <configuration name="CommitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommitTest.canGetCommitId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommitTest" />
+      <option name="METHOD_NAME" value="canGetCommitId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommitTest.canGetCommitMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub TDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,6 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommitTest" />
+        <item itemvalue="JUnit.CommitTest.canGetCommitId" />
         <item itemvalue="JUnit.CommitTest.canGetCommitMessage" />
       </list>
     </recent_temporary>
@@ -70,21 +104,29 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="609" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1680.952@0.23.1680.952" timestamp="1581693081034" />
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1581693917950">
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581858416738">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581693917950" />
-    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1581693917949">
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581858416738" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581858416738">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1581693917949" />
-    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1581693917949">
+    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1581858416738" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581858416737">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1581693917949" />
-    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1581693917950">
+    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1581858416737" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581858416738">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1581693917950" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1581858416738" />
+    <state x="328" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1581858174031">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="328" y="291" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1581858174031" />
+    <state x="0" y="23" width="1269" height="952" key="find.popup" timestamp="1581858894500">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="0" y="23" width="1269" height="952" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1581858894500" />
   </component>
 </project>

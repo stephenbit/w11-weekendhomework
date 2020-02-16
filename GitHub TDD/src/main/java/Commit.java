@@ -1,16 +1,20 @@
-import java.util.HashMap;
-
 public class Commit {
 
-    private HashMap<Integer, String> commit;
+  private Commit commit;
+  private int uniqueId;
+  private String description;
 
-    public Commit(Integer iD, String message) {
-        this.commit.put(iD, message);
+  public Commit(int uniqueId, String description) {
+      this.uniqueId = uniqueId;
+      this.description = description;
+  }
+
+  public int getCommitUniqueId() {
+      return uniqueId;
+  }
+
+
+    public String getCommitDescription() {
+      return description;
     }
-
-    public String getCommitMessage(Integer iD) {
-        return commit.get(iD);
-    }
-
-
 }

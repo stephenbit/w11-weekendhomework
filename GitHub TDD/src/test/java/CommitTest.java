@@ -2,7 +2,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.*;
-import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,12 +14,16 @@ public class CommitTest {
     @Before
     public void before() {
         commit1 = new Commit(41241, "initial commit");
-        commit2 = new Commit(65769, "new commit");
+        commit2 = new Commit(65769, "refactored the getScore method");
     }
 
     @Test
+    public void canGetCommitUniqueId() {
+        assertEquals(65769, commit2.getCommitUniqueId());
+    }
+
     public void canGetCommitMessage() {
-        assertEquals("new commit", commit2.getCommitMessage(65769));
+        assertEquals("initial commit", commit1.getCommitDescription());
     }
 
 
