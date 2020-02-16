@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e518911c-5dcb-4891-8dae-06e88a4e21a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/weekend_homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CommitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Commit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CommitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommitTest.class" afterDir="false" />
     </list>
@@ -46,9 +45,9 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="JUnit.CommitTest">
+  <component name="RunManager" selected="JUnit.RepositoryTest">
     <configuration name="CommitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub TDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,8 +77,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canGetType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest" />
+        <item itemvalue="JUnit.RepositoryTest.canGetType" />
         <item itemvalue="JUnit.CommitTest" />
         <item itemvalue="JUnit.CommitTest.canGetCommitId" />
         <item itemvalue="JUnit.CommitTest.canGetCommitMessage" />
@@ -100,26 +120,55 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1480" height="749" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581865104677">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="100" y="123" width="1480" height="749" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.956@0.23.1680.956" timestamp="1581865104677" />
     <state x="609" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1581693081034">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="609" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1680.952@0.23.1680.952" timestamp="1581693081034" />
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581858416738">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581865939579">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581858416738" />
-    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581858416738">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581859968854" />
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581865939579" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581865939578">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1581858416738" />
-    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581858416737">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1581859968853" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1581865939578" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581865939578">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1581858416737" />
-    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581858416738">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1581859968852" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1581865939578" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581865939578">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1581858416738" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1581859968854" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1581865939578" />
+    <state width="1612" height="296" key="GridCell.Tab.1.bottom" timestamp="1581865297829">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581865297829" />
+    <state width="1612" height="296" key="GridCell.Tab.1.center" timestamp="1581865297828">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1581865297828" />
+    <state width="1612" height="296" key="GridCell.Tab.1.left" timestamp="1581865297828">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1581865297828" />
+    <state width="1612" height="296" key="GridCell.Tab.1.right" timestamp="1581865297828">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1581865297828" />
+    <state x="238" y="23" key="SettingsEditor" timestamp="1581863310949">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="238" y="50" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1581860932997" />
+    <state x="238" y="23" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1581863310949" />
     <state x="328" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1581858174031">
       <screen x="0" y="23" width="1680" height="952" />
     </state>

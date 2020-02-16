@@ -1,9 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.*;
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class CommitTest {
 
@@ -22,6 +20,7 @@ public class CommitTest {
         assertEquals(65769, commit2.getCommitUniqueId());
     }
 
+    @Test
     public void canGetCommitMessage() {
         assertEquals("initial commit", commit1.getCommitDescription());
     }
