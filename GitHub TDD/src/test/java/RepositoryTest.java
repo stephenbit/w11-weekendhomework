@@ -11,8 +11,6 @@ public class RepositoryTest {
     private Repository repository2;
     private Commit commit1;
     private Commit commit2;
-    private Commit commit3;
-    private Commit commit4;
     private ArrayList commitsList1;
     private ArrayList commitsList2;
 
@@ -27,8 +25,8 @@ public class RepositoryTest {
                 "utilized a superpush"
         );
 
-        commitsList1 = new ArrayList();
-        commitsList2 = new ArrayList();
+        commitsList1 = new ArrayList<Commit>();
+        commitsList2 = new ArrayList<Commit>();
 
         repository1 = new Repository(
                 "GitHub TDD",
@@ -62,12 +60,14 @@ public class RepositoryTest {
     }
 
     @Test
-    public void canGetCommitsList() {
-        commitsList1.add(commit1);
-        assertEquals(commit1, getCommitsList());
+    public void commitListStartsAtZero() {
+        assertEquals(0, commitsList1.getCommitListSize());
     }
 
-
-
+//    @Test
+//    public void canAddToCommitsList() {
+//        commitsList1.add(commit1);
+//        assertEquals(commit1, repository1.getCommitsList());
+//    }
 
 }

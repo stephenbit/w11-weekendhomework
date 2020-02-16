@@ -26,8 +26,12 @@ public class Repository {
         return isPublic;
     }
 
-    private ArrayList<Commit> getCommitsList() {
-        return commitsList;
+    public Integer getCommitListSize() {
+        return this.commitsList.size();
     }
+
+//    public ArrayList<Commit> getCommitsList() {
+//        return commitsList;
+//    }
 
 }
