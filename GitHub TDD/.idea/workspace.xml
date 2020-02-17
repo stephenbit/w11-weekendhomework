@@ -49,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest.commitListStartsAtZero">
+  <component name="RunManager" selected="JUnit.RepositoryTest.canAddToCommitsList">
     <configuration name="CommitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub TDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,21 +69,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommitTest.canGetCommitMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHub TDD" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommitTest" />
-      <option name="METHOD_NAME" value="canGetCommitMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RepositoryTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="GitHub TDD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canAddToCommitsList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canAddToCommitsList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.canAddToCommitsList" />
         <item itemvalue="JUnit.RepositoryTest.commitListStartsAtZero" />
         <item itemvalue="JUnit.RepositoryTest.canGetType" />
         <item itemvalue="JUnit.CommitTest" />
         <item itemvalue="JUnit.CommitTest.canGetCommitId" />
-        <item itemvalue="JUnit.CommitTest.canGetCommitMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -141,59 +141,64 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="609" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1680.952@0.23.1680.952" timestamp="1581693081034" />
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581869825267">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581951809428">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581859968854" />
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1581867588546" />
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581865939579" />
+    <state width="1612" height="296" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1581877517152" />
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581951809428" />
     <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1581869825267" />
-    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581869825266">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581951809428">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1581859968853" />
-    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1581867588546" />
-    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1581865939578" />
+    <state width="1612" height="296" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1581877517151" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1581951809428" />
     <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1581869825266" />
-    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581869825266">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581951809427">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1581859968852" />
-    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1581867588545" />
-    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1581865939578" />
+    <state width="1612" height="296" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1581877517150" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1581951809427" />
     <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1581869825266" />
-    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581869825266">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581951809428">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1581859968854" />
-    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1581867588546" />
-    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1581865939578" />
+    <state width="1612" height="296" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1581877517151" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1581951809428" />
     <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1581869825266" />
-    <state width="1612" height="296" key="GridCell.Tab.1.bottom" timestamp="1581865297829">
-      <screen x="0" y="23" width="1680" height="956" />
+    <state width="1612" height="296" key="GridCell.Tab.1.bottom" timestamp="1581877517153">
+      <screen x="0" y="23" width="1680" height="954" />
     </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.bottom/0.23.1680.954@0.23.1680.954" timestamp="1581877517153" />
     <state width="1612" height="296" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1581865297829" />
-    <state width="1612" height="296" key="GridCell.Tab.1.center" timestamp="1581865297828">
-      <screen x="0" y="23" width="1680" height="956" />
+    <state width="1612" height="296" key="GridCell.Tab.1.center" timestamp="1581877517152">
+      <screen x="0" y="23" width="1680" height="954" />
     </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.center/0.23.1680.954@0.23.1680.954" timestamp="1581877517152" />
     <state width="1612" height="296" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1581865297828" />
-    <state width="1612" height="296" key="GridCell.Tab.1.left" timestamp="1581865297828">
-      <screen x="0" y="23" width="1680" height="956" />
+    <state width="1612" height="296" key="GridCell.Tab.1.left" timestamp="1581877517152">
+      <screen x="0" y="23" width="1680" height="954" />
     </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.left/0.23.1680.954@0.23.1680.954" timestamp="1581877517152" />
     <state width="1612" height="296" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1581865297828" />
-    <state width="1612" height="296" key="GridCell.Tab.1.right" timestamp="1581865297828">
-      <screen x="0" y="23" width="1680" height="956" />
+    <state width="1612" height="296" key="GridCell.Tab.1.right" timestamp="1581877517153">
+      <screen x="0" y="23" width="1680" height="954" />
     </state>
+    <state width="1612" height="296" key="GridCell.Tab.1.right/0.23.1680.954@0.23.1680.954" timestamp="1581877517153" />
     <state width="1612" height="296" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1581865297828" />
     <state x="238" y="23" key="SettingsEditor" timestamp="1581863310949">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="238" y="50" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1581860932997" />
     <state x="238" y="23" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1581863310949" />
-    <state x="328" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1581858174031">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state x="328" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1581930240268">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="328" y="291" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1581858174031" />
+    <state x="328" y="292" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1581930240268" />
     <state x="0" y="23" width="1269" height="952" key="find.popup" timestamp="1581858894500">
       <screen x="0" y="23" width="1680" height="952" />
     </state>

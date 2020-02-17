@@ -66,11 +66,11 @@ public class RepositoryTest {
         assertEquals(0, repository1.getCommitListSize());
     }
 
-    //    @Test
-//    public void canAddToCommitsList() {
-//        commitsList1.add(commit1);
-//        assertEquals(commit1, repository1.getCommitsList());
-//    }
+    @Test
+    public void canAddToCommitsList() {
+        repository1.addCommit(commit1);
+        assertEquals(1, repository1.getCommitListSize());
+    }
 
 //    @Test
 //    public void canAddToCommitsList() {
